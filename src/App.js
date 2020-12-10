@@ -4,7 +4,7 @@ import FruitContainer from './components/FruitContainer'
 
 
 function App() {
-  const fruits = ['banana', 'watermelon', 'apple', 'orange']
+  const fruits = ['banana', 'watermelon', 'apple', 'orange', 'kiwi', 'mango', 'starfruit']
 
 
   return (
