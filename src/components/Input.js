@@ -12,7 +12,7 @@ class Input extends Component {
         return(
             <div>
                 <label htmlFor="fruit-filter" >Filter There Fruits:</label>
-                <input type="text" name="fruit-filter"/>
+                <input type="text" value={this.props.value} onChange={this.props.onChange} name="fruit-filter"/>
             </div>
         )
     }
